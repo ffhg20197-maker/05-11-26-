@@ -1,0 +1,13 @@
+{
+  "name": "github-actions-docker-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Учебный пример GitHub Actions с Node.js Docker-контейнером и MySQL service container.",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test/app.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
